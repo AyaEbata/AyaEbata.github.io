@@ -3,8 +3,8 @@
 えばた あや
 
 ## Site
-- Github: https://github.com/AyaEbata
-- SlideShare: https://www.slideshare.net/AyaEbata
+- [Github](https://github.com/AyaEbata)
+- [SlideShare](https://www.slideshare.net/AyaEbata)
 
 ## Skill
 - Java
