@@ -7,11 +7,15 @@
 - [SlideShare](https://www.slideshare.net/AyaEbata)
 
 ## Skill
-- Java
-- Python
+- Java: Spring使ってwebやったり
+- Python: Spark使ってバッチ書いたり
 - HTML
 - CSS　とか（雑
 
+## Community
+- Java女子部
+- GTUG Girls
+
 ## Love
-- 鍵盤
-- ラーメン二郎
+- 鍵盤: KORG PS60
+- ラーメン二郎: 関内😍
