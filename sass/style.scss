@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@import "reset";
+
+@mixin sp {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+html {
+  font-family: "Hiragino maru Gothic ProN W4", "Hiragino Kaku Gothic Pro", "Hiragino Sans", "arial", "Meiryo", "MS PGothic", sans-serif !important;
+}
+
+body {
+  max-width: 600px;
+  margin: auto;
+  font-size: 15px;
+  padding: 60px 0 100px;
+
+  @include sp {
+    font-size: 0.9em;
+    padding: 3em 2em 5em;
+  }
+}
+
+.main-prof {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+
+  @include sp {
+    margin-bottom: 2.5em;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 18px 0 16px;
+
+    @include sp {
+      font-size: 1.6em;
+      margin: 0.8em 0 0.6em;
+    }
+  }
+
+  &__prof-img {
+    border-radius: 50%;
+    width: 110px;
+    margin-right: 25px;
+
+    @include sp {
+      width: 6em;
+      margin-right: 1em;
+    }
+  }
+
+  &__icon-wrapper img {
+    width: 28px;
+    margin-right: 7px;
+
+    @include sp {
+      width: 1.5em;
+      margin-right: 0.2em;
+    }
+  }
+}
+
+.description {
+  padding: 0 20px;
+
+  @include sp {
+    padding: 0 1em;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin: 32px 0 15px;
+
+    @include sp {
+      font-size: 1.4em;
+      margin: 1.3em 0 0.6em;
+    }
+  }
+
+  li {
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 1.8;
+    margin-left: 10px;
+
+    @include sp {
+      line-height: 1.7;
+      margin-left: 0.5em;
+    }
+
+    a:link {
+      color: gray;
+    }
+
+    a:visited {
+      color: gray;
+    }
+  }
+}
