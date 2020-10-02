@@ -58,6 +58,7 @@ html {
 
 body {
   max-width: 600px;
+  min-width: 270px;
   margin: auto;
   font-size: 15px;
   padding: 60px 0 100px;
