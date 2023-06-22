@@ -77,12 +77,12 @@ body {
       .main-prof h1 {
         font-size: 1.8em;
         margin-bottom: 0.6em; } }
-  .main-prof__img {
+  .main-prof__prof-img {
     border-radius: 50%;
     width: 120px;
     margin-right: 24px; }
     @media screen and (max-width: 600px) {
-      .main-prof__img {
+      .main-prof__prof-img {
         width: 6.5em;
         margin-right: 1em; } }
   .main-prof__icon-wrapper img {
