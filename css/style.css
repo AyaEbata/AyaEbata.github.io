@@ -20,158 +20,107 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 html {
-  font-family: "Hiragino maru Gothic ProN W4", "Hiragino Kaku Gothic Pro", "Hiragino Sans", "arial", "Meiryo", "MS PGothic", sans-serif !important;
-}
+  font-family: "Hiragino maru Gothic ProN W4", "Hiragino Kaku Gothic Pro", "Hiragino Sans", "arial", "Meiryo", "MS PGothic", sans-serif !important; }
 
 body {
   max-width: 600px;
   min-width: 270px;
   margin: auto;
-  font-size: 15px;
-  padding: 60px 0 100px;
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 0.9em;
-    padding: 3em 2em 5em;
-  }
-}
+  font-size: 16px;
+  padding: 60px 0 100px; }
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 1em;
+      padding: 3em 2em 5em; } }
 
 .main-prof {
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 42px;
-}
-
-@media screen and (max-width: 600px) {
-  .main-prof {
-    margin-bottom: 2.7em;
-  }
-}
-
-.main-prof h1 {
-  font-size: 38px;
-  margin: 21px 0 16px;
-}
-
-@media screen and (max-width: 600px) {
+  align-items: flex-start; }
+  .main-prof__name-wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 120px;
+    justify-content: center; }
+    @media screen and (max-width: 600px) {
+      .main-prof__name-wrapper {
+        height: 6.5em; } }
   .main-prof h1 {
-    font-size: 2.1em;
-    margin: 0.64em 0 0.4em;
-  }
-}
-
-.main-prof__prof-img {
-  border-radius: 50%;
-  width: 120px;
-  margin-right: 25px;
-}
-
-@media screen and (max-width: 600px) {
-  .main-prof__prof-img {
-    width: 6.5em;
-    margin-right: 1em;
-  }
-}
-
-.main-prof__icon-wrapper img {
-  width: 25px;
-  margin: 0 7px 0 5px;
-}
-
-@media screen and (max-width: 600px) {
+    font-size: 32px;
+    margin-bottom: 16px; }
+    @media screen and (max-width: 600px) {
+      .main-prof h1 {
+        font-size: 1.8em;
+        margin-bottom: 0.6em; } }
+  .main-prof__img {
+    border-radius: 50%;
+    width: 120px;
+    margin-right: 24px; }
+    @media screen and (max-width: 600px) {
+      .main-prof__img {
+        width: 6.5em;
+        margin-right: 1em; } }
   .main-prof__icon-wrapper img {
-    width: 1.3em;
-    margin-right: 0.2em;
-  }
-}
+    width: 24px;
+    margin: 0 8px 0 4px; }
+    @media screen and (max-width: 600px) {
+      .main-prof__icon-wrapper img {
+        width: 1.3em;
+        margin-right: 0.2em; } }
 
 .description {
-  padding: 0 20px;
-}
-
-@media screen and (max-width: 600px) {
-  .description {
-    padding: 0 1em;
-  }
-}
-
-.description h2 {
-  font-size: 28px;
-  margin: 37px 0 17px;
-}
-
-@media screen and (max-width: 600px) {
+  padding: 0 20px; }
+  @media screen and (max-width: 600px) {
+    .description {
+      padding: 0 1em; } }
   .description h2 {
-    font-size: 1.5em;
-    margin: 1.4em 0 0.7em;
-  }
-}
-
-.description__content {
-  margin-left: 5px;
-  line-height: 1.8;
-}
-
-@media screen and (max-width: 600px) {
+    font-size: 24px;
+    margin: 40px 0 16px; }
+    @media screen and (max-width: 600px) {
+      .description h2 {
+        font-size: 1.4em;
+        margin: 1.6em 0 0.6em; } }
   .description__content {
-    margin-left: 0.25em;
-    line-height: 1.7;
-  }
-}
-
-.description__content li {
-  list-style-type: disc;
-  list-style-position: inside;
-  margin-left: 5px;
-}
-
-@media screen and (max-width: 600px) {
-  .description__content li {
-    margin-left: 0.25em;
-  }
-}
-
-.description__content a:link {
-  color: gray;
-}
-
-.description__content a:visited {
-  color: gray;
-}
+    margin-left: 4px;
+    line-height: 1.8; }
+    @media screen and (max-width: 600px) {
+      .description__content {
+        margin-left: 0.25em; } }
+    .description__content li {
+      list-style-type: disc;
+      list-style-position: inside;
+      margin-left: 5px; }
+      @media screen and (max-width: 600px) {
+        .description__content li {
+          margin-left: 0.25em; } }
+    .description__content a:link {
+      color: gray; }
+    .description__content a:visited {
+      color: gray; }
 
 /*# sourceMappingURL=style.css.map */

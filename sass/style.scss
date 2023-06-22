@@ -16,11 +16,11 @@ body {
   max-width: 600px;
   min-width: 270px;
   margin: auto;
-  font-size: 15px;
+  font-size: 16px;
   padding: 60px 0 100px;
 
   @include sp {
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 3em 2em 5em;
   }
 }
@@ -28,26 +28,32 @@ body {
 .main-prof {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 42px;
 
-  @include sp {
-    margin-bottom: 2.7em;
-  }
-
-  h1 {
-    font-size: 38px;
-    margin: 21px 0 16px;
+  &__name-wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 120px;
+    justify-content: center;
 
     @include sp {
-      font-size: 2.1em;
-      margin: 0.64em 0 0.4em;
+      height: 6.5em;
     }
   }
 
-  &__prof-img {
+  h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+
+    @include sp {
+      font-size: 1.8em;
+      margin-bottom: 0.6em;
+    }
+  }
+
+  &__img {
     border-radius: 50%;
     width: 120px;
-    margin-right: 25px;
+    margin-right: 24px;
 
     @include sp {
       width: 6.5em;
@@ -56,8 +62,8 @@ body {
   }
 
   &__icon-wrapper img {
-    width: 25px;
-    margin: 0 7px 0 5px;
+    width: 24px;
+    margin: 0 8px 0 4px;
 
     @include sp {
       width: 1.3em;
@@ -74,22 +80,21 @@ body {
   }
 
   h2 {
-    font-size: 28px;
-    margin: 37px 0 17px;
+    font-size: 24px;
+    margin: 40px 0 16px;
 
     @include sp {
-      font-size: 1.5em;
-      margin: 1.4em 0 0.7em;
+      font-size: 1.4em;
+      margin: 1.6em 0 0.6em;
     }
   }
 
   &__content {
-    margin-left: 5px;
+    margin-left: 4px;
     line-height: 1.8;
 
     @include sp {
       margin-left: 0.25em;
-      line-height: 1.7;
     }
 
     li {
